@@ -1,0 +1,48 @@
+17/07
+
+HTML - Hyper text mark up language
+HTML5 - came on 2008
+html - root tag.
+tag - <>
+2 TYPES - paired and unpaired
+element - content between opening and closing 
+tag - component which is used to design page.
+body -  contains tags which gonna be displayed in browser
+
+href - target 
+	_self - same page
+	_parent - render a page in parent page
+	_top - render in top frame
+	_blank - next page 
+<table>
+thead - wrap header of table
+tbody - wrap contents without header
+
+
+
+css
+
+inline - <h1 style = " " >
+external - style.css
+internal - <style> </style>
+
+link - it is used to include any  external resources to a html.
+
+
+rgb - it is model to define color to a webpage
+hexadecimal 0 - f
+
+all -255 is white
+all -0  black
+ 
+
+
+Selector - helps target element and add css style 
+
+universal - apply css property whole html page
+id - used to apply css property to single html file
+class
+element
+
+
+

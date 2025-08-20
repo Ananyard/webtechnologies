@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h3 {
+            color: #0feb7d;
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
+   
+    <center>
+         <h3 style=" color: #630bfb;">Passport Seva</h3>
+        <form>
+            <label for="apply">Register to apply at :</label>
+            <input type="radio" name="cpv" id="apply" required>CPV DELHI
+           
+            <input type="radio" name="cpv" id="apply" required>Passport Office 
+            
+            <span>
+                   <small> Select the 'CPV Delhi' option to apply for Diplomatic/Official passport at Consular,
+                     Passport and Visa (CPV) division, Delhi.</small></span>
+            <br> <br>
+            <label for="Office">Passport Office:</label>
+            <select name="office">select office
+            <option value="select">Select a Passport Office</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="pune">Pune</option>
+            </select>
+            <span><small>
+Tibetan Refugees applying for Identity Certificate must register with 'Delhi' Passport Office.	Tibetan Refugees applying for Identity Certificate must register with 'Delhi' Passport Office.</small></span>
+            <br> <br>
+            <label for="name">Given  name:</label>
+            <input type="text" placeholder="Enter your name" name="name" id="name" required>
+            
+            <span><small>First Name + Middle Name
+Initials and honorifics (e.g. Dr.,Col.,etc.) are not allowed.=</small></span>
+            <br> <br>
+            <label for="surname">Surname:</label>
+            <input type="text" placeholder="Enter your surname" name="surname" id="surname" required>
+            <br> <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" required>
+            <br> <br>
+            <label for="mail">email</label>
+            <input type="email" placeholder="Enter your email" name="mail" id="mail" required>
+            <br> <br>
+            <label for="eal">do u want o login to same email id?</label>
+            <input type="radio" name="mail" id="eal" required>yes
+            <input type="radio" name="mail" id="eal">no
+            <br><br>
+            <label for="login">Login Id:</label>  
+            <input type="text" placeholder="Enter your login id" name="login" id="login" required> <a href="https://portal2.passportindia.gov.in/AppOnlineProject/user/UserRegistrationActionDBAuth">check availability</a>
+            <br> <br>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your password" name="password" id="password" required> <a href="https://portal2.passportindia.gov.in/AppOnlineProject/onlineHtml/passwordPolicy.html">password policy</a>
+            <br> <br>
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" placeholder="Confirm your password" name="confirm" id="confirm" required>
+            <br> <br> 
+            <label for="hint">hint question:</label>
+            <select name="hint" id="hint" required>
+                <option value="select">Select a hint question</option>
+                <option value="pet">What is your pet's name?</option>
+                <option value="school">What is the name of your school?</option>
+                <option value="city">What city were you born in?</option>
+                
+</select>
+<br><br>
+                <label for="hint">hint answer:</label>
+                <input type="text" name="ans" id="hint" placeholder="Enter your hint answer" required>
+            <br> <br>
+            <label for="captcha">Enter the captcha displayed:</label>
+             <img src="captcha.png" alt="captcha image" width="100" height="50"> <br><br>
+            <input type="text" placeholder="Enter the captcha" name="captcha" id="captcha" required>
+           
+            <br> <br>
+
+<input type="submit" value="register">
+<input type="reset" value="reset">
+            <br> <br>
+            <span>By clicking on 'Register', you agree to the <a href="https://portal2.passportindia.gov.in/AppOnlineProject/onlineHtml/termsAndConditions.html">Terms and Conditions</a>.</span>   
+        </form>
+
+
+    </center>
+</body>
+</html>
